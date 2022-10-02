@@ -19,7 +19,7 @@ const post = new mongoose.Schema({
        
       },
       likes: {
-        type: Number,
+        type: Array,
         // required: true,
        
       },
